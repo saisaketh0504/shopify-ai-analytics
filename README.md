@@ -100,23 +100,21 @@ Answer:
 - Retry and fallback logic for API failures
 
 
-## Architecture Overview
-
 ┌──────────────────────┐
-│ Client / Postman     |
+│ Client / Postman │
 └───────────┬──────────┘
-            ↓
+↓
 ┌────────────────────────────┐
-│ Rails API                  │
-│ (Validation & Gateway)     │
+│ Rails API │
+│ (Validation & Gateway) │
 └───────────┬────────────────┘
-            ↓
+↓
 ┌────────────────────────────┐
-│ Python AI Service          │
-│ (Agent Layer)              │
+│ Python AI Service │
+│ (Agent Layer) │
 └───────────┬────────────────┘
-            ↓
+↓
 ┌────────────────────────────┐
-│ Shopify API                │
-│ (Mocked via JSON Files)    │
+│ Shopify API │
+│ (Mocked via JSON Files) │
 └────────────────────────────┘
