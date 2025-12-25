@@ -102,10 +102,21 @@ Answer:
 
 ## Architecture Overview
 
-Client / Postman
-      ↓
-Rails API (Validation & Gateway)
-      ↓
-Python AI Service (Agent)
-      ↓
-Shopify API (Mocked via JSON)
+┌──────────────────────┐
+│ Client / Postman     |
+└───────────┬──────────┘
+            ↓
+┌────────────────────────────┐
+│ Rails API                  │
+│ (Validation & Gateway)     │
+└───────────┬────────────────┘
+            ↓
+┌────────────────────────────┐
+│ Python AI Service          │
+│ (Agent Layer)              │
+└───────────┬────────────────┘
+            ↓
+┌────────────────────────────┐
+│ Shopify API                │
+│ (Mocked via JSON Files)    │
+└────────────────────────────┘
