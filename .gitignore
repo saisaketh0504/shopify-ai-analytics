@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Rails
+log/
+tmp/
+.bundle/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+{
+  "sales": {
+    "daily_average": 8,
+    "last_7_days": 56,
+    "top_products": [
+      { "product": "Coffee Mug", "units_sold": 120 },
+      { "product": "Vintage T-Shirt", "units_sold": 95 },
+      { "product": "Notebook", "units_sold": 80 },
+      { "product": "Sticker Pack", "units_sold": 65 },
+      { "product": "Canvas Bag", "units_sold": 50 }
+    ]
+  },
+  "inventory": {
+    "Coffee Mug": 40,
+    "Vintage T-Shirt": 20,
+    "Notebook": 15,
+    "Sticker Pack": 100,
+    "Canvas Bag": 10
+  },
+  "customers": {
+    "repeat_customers_last_90_days": 32,
+    "total_customers": 120
+  }
+}
